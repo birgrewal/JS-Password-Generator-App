@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RANDOM PASSWORD GENERATOR</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>PASSWORD GENERATOR</h1>
+        <div class="genPass"></div>
+        <input type="number" name="charNo" id="charNo" placeholder="Number of Characters...">
+
+        <div class="selectBox">
+            <label for="incUpCase">Include Uppercase</label>
+            <input type="radio" name="incUpCase" id="incUpCase">
+
+            <label for="incLowCase">Include Lowercase</label>
+            <input type="radio" name="incLowCase" id="incLowCase">
+
+            <label for="incNum">Include Numbers</label>
+            <input type="radio" name="incNum" id="incNum">
+
+            <label for="incSymbols">Include Symbols</label>
+            <input type="radio" name="incSymbols" id="incSymbols">
+        </div>
+
+
+        <button class="btn" id="genBtn">Generate</button>
+        <button class="btn" id="copyBtn">Copy Password</button>
+    </div>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
